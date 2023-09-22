@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>CityScape Quest: Your Journey Begins Here</title>
   <meta charset="utf-8">
@@ -17,65 +17,61 @@
             <h1>Visit cities with Jyothi Dronamraju</h1>
         </header>
    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            max-width: 800px;
-        }
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 10px 0;
-        }
-        .col-sm-2 {
-            flex: 1;
-            background-color: #239fc5;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin: 5px;
-            border-radius: 5px;
-        }
-        .col-md {
-            flex: 1;
-            background-color: #bd31a8;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin: 5px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">D - Dubai</div>
-            <div class="col-sm-2">R - Rome</div>
-            <div class="col-sm-2">O - Oslo</div>
-            <div class="col-sm-2">N - New York</div>
-            <div class="col-sm-2">A - Athens</div>
-            <div class="col-sm-2">M - Madrid</div>
-        </div>
-        <div class="row">
-            <div class="col-md">Dubai</div>
-            <div class="col-md">Rome</div>
-            <div class="col-md">Oslo</div>
-            <div class="col-md">New York</div>
-            <div class="col-md">Athens</div>
-            <div class="col-md">Madrid</div>
-        </div>
-    </div>
+                 <style>
+                .container {
+                    margin-top: 20px;
+                    background-color: #f5f5f5;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                }
+        
+                .row {
+                    margin-bottom: 10px;
+                }
+        
+                .col-sm-2 {
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+        
+                .col-md {
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+        
+                .col-sm-2 {
+                    background-color: hsl(257, 70%, 53%); 
+                    color: #fff;
+                }
+        
+                .col-md {
+                    background-color: hwb(327 9% 16%); 
+                    color: #fff;
+                }
+            </style>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">D</div>
+                    <div class="col-sm-2">R</div>
+                    <div class="col-sm-2">O</div>
+                    <div class="col-sm-2">N</div>
+                    <div class="col-sm-2">A</div>
+                    <div class="col-sm-2">M</div>
+                </div>
+                <div class="row">
+                    <div class="col-md">Denver</div>
+                    <div class="col-md">Rome</div>
+                    <div class="col-md">Oslo</div>
+                    <div class="col-md">New York</div>
+                    <div class="col-md">Athens</div>
+                    <div class="col-md">Mumbai</div>
+                </div>
+            </div>
+              
     <p><strong>Answer: When you resize the screen until only one of the rows becomes horizontal, it will be the city names row (the second row) that becomes horizontal. This happens because the col-md class is designed for medium-sized screens and larger. When the screen width is reduced beyond that breakpoint, the city name columns will stack vertically one below the other. The letter row (the first row) is more flexible and will adjust better to smaller screens before breaking into a horizontal layout.
     </strong></p>
 </body>
