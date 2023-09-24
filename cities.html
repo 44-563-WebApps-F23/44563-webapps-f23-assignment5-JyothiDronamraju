@@ -74,6 +74,47 @@
               
     <p><strong>Answer: When you resize the screen until only one of the rows becomes horizontal, it will be the city names row (the second row) that becomes horizontal. This happens because the col-md class is designed for medium-sized screens and larger. When the screen width is reduced beyond that breakpoint, the city name columns will stack vertically one below the other. The letter row (the first row) is more flexible and will adjust better to smaller screens before breaking into a horizontal layout.
     </strong></p>
+
+     <style>
+        /* Styling for responsive images */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-container img {
+            width: 100%; 
+            max-width: 500px; 
+            height: auto; 
+            margin: 10px; 
+        }
+        /* Styling for thumbnails */
+        .thumbnail-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .thumbnail-container img {
+            width: 100px; 
+            height: 100px; 
+            margin: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="Rome.jpg" alt="City 1" width="400" height="500">
+        <img src="Newyork.jpg" alt="City 2" width="400" height="500">
+        <img src="Mumbai.jpg" alt="City 3" width="400" height="500">
+    </div>
+    <div class="thumbnail-container">
+        <img src="Rome.jpg" alt="City 1 Thumbnail">
+        <img src="Newyork.jpg" alt="City 2 Thumbnail">
+        <img src="Mumbai.jpg" alt="City 3 Thumbnail">
+    </div>
+</body>
+</html>
+
 </body>
 </html>
 
