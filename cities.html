@@ -171,9 +171,43 @@
             </tbody>
         </table>
     </div>
-
+       <body>
+        <div class="container">
+            <!-- Create six buttons with class 'btn' -->
+            <button class="btn" style="background-color: hsl(291, 87%, 15%); color: white;">D</button>
+        <button class="btn" style="background-color: #1c23e7; color: white;">R</button>
+        <button class="btn" style="background-color: #ec22c3; color: white;">O</button>
+        <button class="btn" style="background-color: #6da5a5; color: white;">N</button>
+        <button class="btn" style="background-color: #f68c91; color: white;">A</button>
+        <button class="btn" style="background-color: hsl(49, 85%, 78%); color: white;">M</button>
+        
+            
+            <!-- Create three button groups using divs -->
+            <div class="btn-toolbar" role="toolbar" aria-label="Button Groups">
+                <!-- Button group 1: Cities with success coloring -->
+                <div class="btn-group btn-group-success mr-2" role="group" aria-label="Cities Group">
+                    <button class="btn btn-success">R</button>
+                    <button class="btn btn-success">N</button>
+                    <button class="btn btn-success">M</button>
+                </div>
+                
+                <!-- Button group 2: Two buttons with alert coloring -->
+                <div class="btn-group btn-group-warning mr-2" role="group" aria-label="Alert Group">
+                    <button class="btn-warning">D</button>
+                    <button class="btn-warning">A</button>
+                </div>
+                
+                <!-- Button group 3: Remaining button with danger coloring -->
+                <div class="btn-group btn-group-danger" role="group" aria-label="Danger Group">
+                    <button class="btn-danger">O</button>
+                </div>
+            </div>
+        </div>
+    
+       
+    
  </body>
-</html>
+
 
 
 
